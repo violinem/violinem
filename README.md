@@ -23,3 +23,6 @@ for item in firedata['data']:
     counterparty_type = item['customer']['type']
     print(item)
 ```
+These information would be applied to calculate K-TCD, which is given by the equation below:
+
+Own funds requirement = α • EV • RF • CVA
